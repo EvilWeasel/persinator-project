@@ -1,5 +1,8 @@
+from person_generator import PersonGenerator
 def main():
-  pass
+  pg = PersonGenerator()
+  # print(pg.get_persons())
+  pg.pp_persons()
   
 if __name__ == '__main__':
   main()
